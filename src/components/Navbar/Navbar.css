@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 96%;
+    background-color: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    padding: 5px;
+    padding-right: 20px;
+    z-index: 1000;
+    margin:12px 10px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .navbar li {
+    cursor: pointer; /* Changes cursor to a pointer */
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  .navbar li.active a {
+    color: #ffd700;
+  }
+  
+  .navbar ul li.active {
+    color: #ffd700;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff;
+
+  }

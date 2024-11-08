@@ -1,0 +1,50 @@
+/* Sponsors.css */
+
+.sponsors {
+    padding: 60px 20px;
+    background: white;
+    text-align: center;
+    color: #fff;
+}
+
+.sponsors h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sponsors-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.sponsor-track {
+    display: flex;
+    gap: 40px;
+    animation: marquee 25s linear infinite;
+}
+
+.sponsor-track img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border:3px solid #4b6cb7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-track img:hover {
+    transform: scale(1.1);
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

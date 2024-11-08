@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar active link styling */
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

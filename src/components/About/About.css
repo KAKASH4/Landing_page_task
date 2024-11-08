@@ -1,0 +1,64 @@
+/* About.css */
+
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.donators {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.donator-card {
+  background: #4b6cb7;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.donator-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4b6cb7;
+  margin-top: 10px;
+  animation: counterAnimation 2s ease-in-out;
+}
+
+/* Keyframe Animation for Counter */
+@keyframes counterAnimation {
+  0% {
+      opacity: 0;
+      transform: scale(0.8);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
