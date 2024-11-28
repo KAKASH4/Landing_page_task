@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Landing_page_task/static/css/main.121c1310.css",
-    "main.js": "/Landing_page_task/static/js/main.cb351905.js",
-    "static/js/453.2b9430d9.chunk.js": "/Landing_page_task/static/js/453.2b9430d9.chunk.js",
-    "static/media/heroimage.png": "/Landing_page_task/static/media/heroimage.4ece7eddb3a02e406a1e.png",
-    "static/media/bottom-hero.png": "/Landing_page_task/static/media/bottom-hero.19cf034da939cb63e79f.png",
-    "index.html": "/Landing_page_task/index.html",
-    "main.121c1310.css.map": "/Landing_page_task/static/css/main.121c1310.css.map",
-    "main.cb351905.js.map": "/Landing_page_task/static/js/main.cb351905.js.map",
-    "453.2b9430d9.chunk.js.map": "/Landing_page_task/static/js/453.2b9430d9.chunk.js.map"
+    "main.css": "/OCTANET_Landing_page_task/static/css/main.121c1310.css",
+    "main.js": "/OCTANET_Landing_page_task/static/js/main.10666b14.js",
+    "static/js/453.2b9430d9.chunk.js": "/OCTANET_Landing_page_task/static/js/453.2b9430d9.chunk.js",
+    "static/media/heroimage.png": "/OCTANET_Landing_page_task/static/media/heroimage.4ece7eddb3a02e406a1e.png",
+    "static/media/bottom-hero.png": "/OCTANET_Landing_page_task/static/media/bottom-hero.19cf034da939cb63e79f.png",
+    "index.html": "/OCTANET_Landing_page_task/index.html",
+    "main.121c1310.css.map": "/OCTANET_Landing_page_task/static/css/main.121c1310.css.map",
+    "main.10666b14.js.map": "/OCTANET_Landing_page_task/static/js/main.10666b14.js.map",
+    "453.2b9430d9.chunk.js.map": "/OCTANET_Landing_page_task/static/js/453.2b9430d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.121c1310.css",
-    "static/js/main.cb351905.js"
+    "static/js/main.10666b14.js"
   ]
 }
