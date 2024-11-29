@@ -35,8 +35,7 @@ You can view the live site here: [Landing Page Deployment](https://lnkd.in/exGD4
 Follow these steps to run the project on your local machine:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/KAKASH4/OCTANET_Landing_page_task
 
 ### 2. Navigate to the Project Directory
 cd landingPage
