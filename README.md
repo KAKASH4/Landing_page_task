@@ -38,7 +38,7 @@ Follow these steps to run the project on your local machine:
 git clone https://github.com/KAKASH4/OCTANET_Landing_page_task
 
 ### 2. Navigate to the Project Directory
-cd landingPage
+cd OCTANET_Landing_page_task
 
 ### 3. Install Dependencies
 npm install
@@ -46,5 +46,16 @@ npm install
 ### 4. Start the Development Server
 npm start
 The application will open in your default browser at http://localhost:3000. If it doesn't, you can manually visit this URL.
+
+---
+
+### Contributing
+Feel free to fork the repository and create pull requests for new features or bug fixes. Contributions are always welcome!
+
+---
+
+### License
+This project is licensed under the MIT License.
+
 
 
